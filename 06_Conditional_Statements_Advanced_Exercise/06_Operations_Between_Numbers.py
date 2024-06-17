@@ -3,16 +3,43 @@ number_2 = int(input())
 operation = input()
 
 text = ''
-# "{N1} {оператор} {N2} = {резултат} - {even/odd}"
+
 if operation == '+':
-    text=f'{number_1} + {number_2} = {number_1 + number_2} - {even if}'
+
+    text = f'{number_1} + {number_2} = {number_1 + number_2}'
+
+    if (number_1 + number_2) % 2 == 0:
+        text += ' - even'
+    else:
+        text += ' - odd'
+
 elif operation == '-':
-    pass
+
+    text = f'{number_1} - {number_2} = {number_1 - number_2}'
+
+    if (number_1 - number_2) % 2 == 0:
+        text += ' - even'
+    else:
+        text += ' - odd'
+
 elif operation == '*':
-    pass
+
+    text = f'{number_1} * {number_2} = {number_1 * number_2}'
+
+    if (number_1 * number_2) % 2 == 0:
+        text += ' - even'
+    else:
+        text += ' - odd'
+
 elif number_2 == 0:
-    pass
+
+    text = f'Cannot divide {number_1} by zero'
+
 elif operation == '/':
-    pass
+    text = f'{number_1} / {number_2} = {(number_1 / number_2):.2f}'
+
 elif operation == '%':
-    pass
+
+    text = f'{number_1} % {number_2} = {number_1 % number_2}'
+
+print(text)
