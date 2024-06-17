@@ -20,7 +20,7 @@ if time_of_day == 'Morning':
         shoes = 'Moccasins'
 
     elif degrees >= LIMIT_DEGREES_25:
-        outfit = 'T-shirt'
+        outfit = 'T-Shirt'
         shoes = 'Sandals'
 
 elif time_of_day == 'Afternoon':
@@ -51,4 +51,4 @@ else:
         outfit = 'Shirt'
         shoes = 'Moccasins'
 
-print(f"It's {degrees} degrees, get your {outfit} and {shoes}.")
+print(f'It\'s {degrees} degrees, get your {outfit} and {shoes}.')
