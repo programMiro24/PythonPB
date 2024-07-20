@@ -10,4 +10,4 @@
 - Exam Preperation
 - Pre Exam
 # Certificate
-https://softuni.bg/certificates/details/220510/d972ebe5
+- https://softuni.bg/certificates/details/220510/d972ebe5
