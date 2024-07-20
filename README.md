@@ -1,6 +1,6 @@
-# Python Programing Basic
+# Programming Basic with Python June 2024
  - There are my programs with Python from Programing Basic from SoftUni.
-# Program:
+# Course topics:
 - First Steps in Programming
 - Conditional Statements
 - Conditional Statements Advanced
